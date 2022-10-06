@@ -1,0 +1,7 @@
+[2022-10-04 22:46:35] [info]  [  556] Apache Commons Daemon procrun (1.2.4.0 64-bit) started.
+[2022-10-04 22:46:42] [info]  [  556] Installing service 'Tomcat10Test' name 'Apache Tomcat 10.0 Tomcat10Test'.
+[2022-10-04 22:46:43] [error] [  556] Der angegebene Dienst ist bereits vorhanden.
+[2022-10-04 22:46:43] [error] [  556] Failed installing service 'Tomcat10Test'.
+[2022-10-04 22:46:44] [error] [  556] Der angegebene Dienst ist bereits vorhanden.
+[2022-10-04 22:46:45] [error] [  556] Apache Commons Daemon procrun failed with exit value: 8 (failed to install service).
+[2022-10-04 22:46:48] [error] [  556] Der angegebene Dienst ist bereits vorhanden.

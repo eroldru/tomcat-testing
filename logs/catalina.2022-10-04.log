@@ -1,0 +1,818 @@
+04-Oct-2022 22:49:00.766 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Host/login-config/auth-method]
+04-Oct-2022 22:49:00.782 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Host/login-config]
+04-Oct-2022 22:49:11.547 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context/Realm/Realm]
+04-Oct-2022 22:49:11.547 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context/Realm/Realm]
+04-Oct-2022 22:49:11.547 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context/Realm/Valve]
+04-Oct-2022 22:49:13.657 SCHWERWIEGEND [main] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [227] column [9]
+	org.xml.sax.SAXParseException; systemId: file:/H:/DirXData/DirX_Programs/Apache_Test_Tomcat/conf/server.xml; lineNumber: 227; columnNumber: 9; Elementtyp "Realm" muss mit dem entsprechenden Endtag "</Realm>" beendet werden.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1685)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2883)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1522)
+		at org.apache.catalina.startup.Catalina.parseServerXml(Catalina.java:642)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:732)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+04-Oct-2022 22:49:13.657 WARNUNG [main] org.apache.catalina.startup.Catalina.parseServerXml Unable to load server configuration from [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\conf\server.xml]
+	org.xml.sax.SAXParseException; systemId: file:/H:/DirXData/DirX_Programs/Apache_Test_Tomcat/conf/server.xml; lineNumber: 227; columnNumber: 9; Elementtyp "Realm" muss mit dem entsprechenden Endtag "</Realm>" beendet werden.
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1243)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1522)
+		at org.apache.catalina.startup.Catalina.parseServerXml(Catalina.java:642)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:732)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+04-Oct-2022 22:49:13.657 SCHWERWIEGEND [main] org.apache.catalina.startup.Catalina.start Cannot start server, server instance is not configured
+04-Oct-2022 23:09:06.120 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Host/login-config/auth-method]
+04-Oct-2022 23:09:06.135 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Host/login-config]
+04-Oct-2022 23:09:06.151 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context/Realm]
+04-Oct-2022 23:09:06.151 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context/Realm]
+04-Oct-2022 23:09:06.151 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context/Valve]
+04-Oct-2022 23:09:06.151 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context]
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/10.0.16
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 15 2022 13:19:56 UTC
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.16.0
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2019
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             H:\DirXData\DirX_Programs\Java
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.4-redhat+11-LTS
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Oracle Corporation
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=H:\DirXData\DirX_Programs\Apache_Test_Tomcat\conf\logging.properties
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+04-Oct-2022 23:09:06.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=H:\DirXData\DirX_Programs\Apache_Test_Tomcat\temp
+04-Oct-2022 23:09:11.948 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+04-Oct-2022 23:09:11.963 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+04-Oct-2022 23:10:50.714 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+04-Oct-2022 23:10:54.542 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-6969"]
+04-Oct-2022 23:10:54.604 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [108834] milliseconds
+04-Oct-2022 23:10:54.807 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Oct-2022 23:10:54.807 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.16]
+04-Oct-2022 23:10:55.464 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\docs]
+04-Oct-2022 23:11:31.417 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:11:42.495 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:12:07.183 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\docs] has finished in [71.719] ms
+04-Oct-2022 23:12:09.354 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\examples]
+04-Oct-2022 23:14:16.199 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:14:17.449 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:14:18.308 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\examples] has finished in [128.954] ms
+04-Oct-2022 23:14:19.480 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\host-manager]
+04-Oct-2022 23:14:23.292 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:14:23.292 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:14:23.308 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\host-manager] has finished in [3.828] ms
+04-Oct-2022 23:14:23.308 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\manager]
+04-Oct-2022 23:14:30.964 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:14:35.027 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:14:35.042 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\manager] has finished in [11.734] ms
+04-Oct-2022 23:14:35.042 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\ROOT]
+04-Oct-2022 23:14:42.620 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:14:42.636 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:14:42.636 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\ROOT] has finished in [7.594] ms
+04-Oct-2022 23:14:42.636 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\testapp]
+04-Oct-2022 23:14:42.667 WARNUNG [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+04-Oct-2022 23:14:42.714 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:14:42.714 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:14:42.730 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\testapp] has finished in [94] ms
+04-Oct-2022 23:14:42.745 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-6969"]
+04-Oct-2022 23:14:45.120 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [230514] milliseconds
+04-Oct-2022 23:27:37.376 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/index.jsp
+04-Oct-2022 23:27:37.381 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:27:37.390 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl.loadPersistentRegistrations Loading persistent provider registrations from [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\conf\jaspic-providers.xml]
+04-Oct-2022 23:27:41.045 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:27:57.657 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /
+04-Oct-2022 23:27:57.658 FEIN [http-nio-6969-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:27:57.659 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:27:59.872 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /manager/html
+04-Oct-2022 23:27:59.878 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Text Manager interface (for scripts)]' against GET /html --> false
+04-Oct-2022 23:27:59.879 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[JMX Proxy interface]' against GET /html --> false
+04-Oct-2022 23:27:59.879 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTML Manager interface (for humans)]' against GET /html --> true
+04-Oct-2022 23:27:59.880 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Status interface]' against GET /html --> false
+04-Oct-2022 23:27:59.881 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Text Manager interface (for scripts)]' against GET /html --> false
+04-Oct-2022 23:27:59.882 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[JMX Proxy interface]' against GET /html --> false
+04-Oct-2022 23:27:59.882 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTML Manager interface (for humans)]' against GET /html --> true
+04-Oct-2022 23:27:59.885 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Status interface]' against GET /html --> false
+04-Oct-2022 23:27:59.886 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+04-Oct-2022 23:28:02.723 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /host-manager/html
+04-Oct-2022 23:28:02.728 FEIN [http-nio-6969-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:28:02.729 FEIN [http-nio-6969-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:28:02.730 FEIN [http-nio-6969-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:28:02.731 FEIN [http-nio-6969-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:28:02.732 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+04-Oct-2022 23:28:09.135 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+04-Oct-2022 23:28:09.138 FEIN [http-nio-6969-exec-5] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+04-Oct-2022 23:28:09.140 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+04-Oct-2022 23:28:09.142 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Failed authenticate() test
+04-Oct-2022 23:28:09.150 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+04-Oct-2022 23:28:09.151 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Failed authenticate() test
+04-Oct-2022 23:29:13.421 FEIN [http-nio-6969-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /
+04-Oct-2022 23:29:13.430 FEIN [http-nio-6969-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:29:13.431 FEIN [http-nio-6969-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:29:13.515 FEIN [http-nio-6969-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /tomcat.css
+04-Oct-2022 23:29:13.516 FEIN [http-nio-6969-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:29:13.517 FEIN [http-nio-6969-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /tomcat.svg
+04-Oct-2022 23:29:13.521 FEIN [http-nio-6969-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:29:13.523 FEIN [http-nio-6969-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:29:13.524 FEIN [http-nio-6969-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:29:13.620 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /tomcat.css
+04-Oct-2022 23:29:13.623 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:29:13.625 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:29:13.637 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /tomcat.svg
+04-Oct-2022 23:29:13.639 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:29:13.640 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:29:27.773 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /bg-nav.png
+04-Oct-2022 23:29:27.773 FEIN [http-nio-6969-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:29:27.774 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:29:27.779 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /asf-logo-wide.svg
+04-Oct-2022 23:29:27.780 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:29:27.781 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:29:27.787 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /bg-upper.png
+04-Oct-2022 23:29:27.790 FEIN [http-nio-6969-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:29:27.791 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:29:27.874 FEIN [http-nio-6969-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /bg-middle.png
+04-Oct-2022 23:29:27.874 FEIN [http-nio-6969-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:29:27.876 FEIN [http-nio-6969-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:29:27.880 FEIN [http-nio-6969-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /bg-button.png
+04-Oct-2022 23:29:27.882 FEIN [http-nio-6969-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:29:27.882 FEIN [http-nio-6969-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:29:27.899 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:29:27.899 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:29:27.901 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:29:28.143 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /host-manager/html
+04-Oct-2022 23:29:28.151 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:29:28.154 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:29:28.155 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:29:28.156 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:29:28.157 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+04-Oct-2022 23:29:28.158 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+04-Oct-2022 23:29:28.160 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+04-Oct-2022 23:29:28.165 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Failed authenticate() test
+04-Oct-2022 23:29:33.794 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /host-manager/html
+04-Oct-2022 23:29:33.796 FEIN [http-nio-6969-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:29:33.797 FEIN [http-nio-6969-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:29:33.798 FEIN [http-nio-6969-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:29:33.800 FEIN [http-nio-6969-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:29:33.801 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+04-Oct-2022 23:29:33.802 FEIN [http-nio-6969-exec-5] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+04-Oct-2022 23:29:33.802 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+04-Oct-2022 23:29:33.808 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Failed authenticate() test
+04-Oct-2022 23:29:34.608 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /bg-nav.png
+04-Oct-2022 23:29:34.609 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /asf-logo-wide.svg
+04-Oct-2022 23:29:34.609 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:29:34.610 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:29:34.613 FEIN [http-nio-6969-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:29:34.614 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:29:34.619 FEIN [http-nio-6969-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /bg-upper.png
+04-Oct-2022 23:29:34.620 FEIN [http-nio-6969-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:29:34.622 FEIN [http-nio-6969-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:29:42.843 FEIN [http-nio-6969-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /bg-middle.png
+04-Oct-2022 23:29:42.843 FEIN [http-nio-6969-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:29:42.843 FEIN [http-nio-6969-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:29:42.858 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /bg-button.png
+04-Oct-2022 23:29:42.858 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:29:42.858 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:29:42.858 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:29:42.858 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:29:42.858 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:30:31.654 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+04-Oct-2022 23:30:31.654 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:30:31.655 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:32:25.625 INFORMATION [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-6969"]
+04-Oct-2022 23:32:25.688 INFORMATION [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Oct-2022 23:32:33.376 INFORMATION [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-6969"]
+04-Oct-2022 23:32:33.391 INFORMATION [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-6969"]
+04-Oct-2022 23:32:49.983 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Host/login-config/auth-method]
+04-Oct-2022 23:32:49.999 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Host/login-config]
+04-Oct-2022 23:32:49.999 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context/Realm/Realm]
+04-Oct-2022 23:32:49.999 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context/Realm/Realm]
+04-Oct-2022 23:32:49.999 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context/Realm]
+04-Oct-2022 23:32:50.014 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context/Valve]
+04-Oct-2022 23:32:50.014 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context]
+04-Oct-2022 23:32:50.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/10.0.16
+04-Oct-2022 23:32:50.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 15 2022 13:19:56 UTC
+04-Oct-2022 23:32:50.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.16.0
+04-Oct-2022 23:32:50.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2019
+04-Oct-2022 23:32:50.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-Oct-2022 23:32:50.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+04-Oct-2022 23:32:50.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             H:\DirXData\DirX_Programs\Java
+04-Oct-2022 23:32:50.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.4-redhat+11-LTS
+04-Oct-2022 23:32:50.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Oracle Corporation
+04-Oct-2022 23:32:50.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+04-Oct-2022 23:32:50.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+04-Oct-2022 23:32:50.045 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Oct-2022 23:32:50.045 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-Oct-2022 23:32:50.045 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-Oct-2022 23:32:50.045 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Oct-2022 23:32:50.045 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Oct-2022 23:32:50.045 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=H:\DirXData\DirX_Programs\Apache_Test_Tomcat\conf\logging.properties
+04-Oct-2022 23:32:50.045 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2022 23:32:50.045 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2022 23:32:50.045 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2022 23:32:50.045 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+04-Oct-2022 23:32:50.045 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+04-Oct-2022 23:32:50.045 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+04-Oct-2022 23:32:50.045 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=H:\DirXData\DirX_Programs\Apache_Test_Tomcat\temp
+04-Oct-2022 23:32:50.061 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+04-Oct-2022 23:32:50.061 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+04-Oct-2022 23:32:50.061 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+04-Oct-2022 23:32:50.702 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-6969"]
+04-Oct-2022 23:32:50.749 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [1107] milliseconds
+04-Oct-2022 23:32:50.858 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Oct-2022 23:32:50.858 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.16]
+04-Oct-2022 23:32:51.295 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\docs]
+04-Oct-2022 23:32:51.639 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:32:51.686 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:32:51.874 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\docs] has finished in [579] ms
+04-Oct-2022 23:32:51.874 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\examples]
+04-Oct-2022 23:32:52.186 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:32:52.342 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:32:52.420 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\examples] has finished in [546] ms
+04-Oct-2022 23:32:52.420 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\host-manager]
+04-Oct-2022 23:32:52.499 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:32:52.499 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:32:52.514 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\host-manager] has finished in [94] ms
+04-Oct-2022 23:32:52.514 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\manager]
+04-Oct-2022 23:32:52.561 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:32:52.577 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:32:52.577 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\manager] has finished in [63] ms
+04-Oct-2022 23:32:52.577 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\ROOT]
+04-Oct-2022 23:32:52.639 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:32:52.655 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:32:52.655 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\ROOT] has finished in [78] ms
+04-Oct-2022 23:32:52.655 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\testapp]
+04-Oct-2022 23:32:52.670 WARNUNG [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+04-Oct-2022 23:32:52.717 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:32:52.717 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:32:52.749 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\testapp] has finished in [94] ms
+04-Oct-2022 23:32:52.749 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-6969"]
+04-Oct-2022 23:32:52.827 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [2083] milliseconds
+04-Oct-2022 23:41:09.865 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+04-Oct-2022 23:41:09.871 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:09.881 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl.loadPersistentRegistrations Loading persistent provider registrations from [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\conf\jaspic-providers.xml]
+04-Oct-2022 23:41:09.899 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:41:10.180 FEIN [http-nio-6969-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:41:10.187 FEIN [http-nio-6969-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:10.187 FEIN [http-nio-6969-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:41:11.652 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+04-Oct-2022 23:41:11.653 FEIN [http-nio-6969-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:11.655 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:41:11.690 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:41:11.691 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:11.694 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:41:15.119 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /host-manager/html
+04-Oct-2022 23:41:15.127 FEIN [http-nio-6969-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:41:15.128 FEIN [http-nio-6969-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:41:15.129 FEIN [http-nio-6969-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:41:15.130 FEIN [http-nio-6969-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:41:15.131 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+04-Oct-2022 23:41:15.132 FEIN [http-nio-6969-exec-5] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+04-Oct-2022 23:41:15.133 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+04-Oct-2022 23:41:15.134 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Failed authenticate() test
+04-Oct-2022 23:41:15.249 FEIN [http-nio-6969-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:41:15.252 FEIN [http-nio-6969-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:15.254 FEIN [http-nio-6969-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:41:16.033 FEIN [http-nio-6969-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /host-manager/html
+04-Oct-2022 23:41:16.035 FEIN [http-nio-6969-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:41:16.036 FEIN [http-nio-6969-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:41:16.037 FEIN [http-nio-6969-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:41:16.038 FEIN [http-nio-6969-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:41:16.038 FEIN [http-nio-6969-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+04-Oct-2022 23:41:16.039 FEIN [http-nio-6969-exec-7] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+04-Oct-2022 23:41:16.040 FEIN [http-nio-6969-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+04-Oct-2022 23:41:16.044 FEIN [http-nio-6969-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Failed authenticate() test
+04-Oct-2022 23:41:22.667 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /host-manager/html
+04-Oct-2022 23:41:22.669 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:41:22.674 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:41:22.675 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:41:22.675 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:41:22.676 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+04-Oct-2022 23:41:22.677 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+04-Oct-2022 23:41:22.677 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+04-Oct-2022 23:41:22.686 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Failed authenticate() test
+04-Oct-2022 23:41:24.418 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /host-manager/html
+04-Oct-2022 23:41:24.425 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:41:24.426 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:41:24.427 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:41:24.428 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:41:24.429 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+04-Oct-2022 23:41:24.432 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+04-Oct-2022 23:41:24.432 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+04-Oct-2022 23:41:24.434 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Failed authenticate() test
+04-Oct-2022 23:41:24.510 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:41:24.513 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:24.514 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:41:26.032 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /host-manager/html
+04-Oct-2022 23:41:26.035 FEIN [http-nio-6969-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:41:26.036 FEIN [http-nio-6969-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:41:26.037 FEIN [http-nio-6969-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:41:26.039 FEIN [http-nio-6969-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:41:26.041 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+04-Oct-2022 23:41:26.042 FEIN [http-nio-6969-exec-3] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+04-Oct-2022 23:41:26.048 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+04-Oct-2022 23:41:26.050 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Failed authenticate() test
+04-Oct-2022 23:41:27.018 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /host-manager/html
+04-Oct-2022 23:41:27.021 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:41:27.023 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:41:27.024 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:41:27.025 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:41:27.026 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+04-Oct-2022 23:41:27.037 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+04-Oct-2022 23:41:27.038 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+04-Oct-2022 23:41:27.039 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Failed authenticate() test
+04-Oct-2022 23:41:34.472 FEIN [http-nio-6969-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /host-manager/html
+04-Oct-2022 23:41:34.476 FEIN [http-nio-6969-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:41:34.477 FEIN [http-nio-6969-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:41:34.478 FEIN [http-nio-6969-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:41:34.478 FEIN [http-nio-6969-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:41:34.479 FEIN [http-nio-6969-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+04-Oct-2022 23:41:34.480 FEIN [http-nio-6969-exec-6] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+04-Oct-2022 23:41:34.481 FEIN [http-nio-6969-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+04-Oct-2022 23:41:34.481 FEIN [http-nio-6969-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Failed authenticate() test
+04-Oct-2022 23:41:39.689 FEIN [http-nio-6969-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+04-Oct-2022 23:41:39.692 FEIN [http-nio-6969-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:39.692 FEIN [http-nio-6969-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:41:39.728 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:41:39.729 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:39.731 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:41:40.207 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+04-Oct-2022 23:41:40.209 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:40.210 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:41:40.246 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:41:40.247 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:40.249 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:41:40.402 FEIN [http-nio-6969-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+04-Oct-2022 23:41:40.408 FEIN [http-nio-6969-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:40.409 FEIN [http-nio-6969-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:41:40.443 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:41:40.444 FEIN [http-nio-6969-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:40.445 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:41:40.590 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+04-Oct-2022 23:41:40.592 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:40.594 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:41:40.625 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:41:40.626 FEIN [http-nio-6969-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:40.627 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:41:40.799 FEIN [http-nio-6969-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+04-Oct-2022 23:41:40.801 FEIN [http-nio-6969-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:40.802 FEIN [http-nio-6969-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:41:40.834 FEIN [http-nio-6969-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:41:40.834 FEIN [http-nio-6969-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:40.835 FEIN [http-nio-6969-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:41:49.538 FEIN [http-nio-6969-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /
+04-Oct-2022 23:41:49.541 FEIN [http-nio-6969-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:49.541 FEIN [http-nio-6969-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:41:49.748 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:41:49.751 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:49.752 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:41:54.472 FEIN [http-nio-6969-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+04-Oct-2022 23:41:54.475 FEIN [http-nio-6969-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:54.477 FEIN [http-nio-6969-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:41:57.774 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+04-Oct-2022 23:41:57.776 FEIN [http-nio-6969-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:57.777 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:41:57.828 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:41:57.831 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:57.832 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:41:58.251 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+04-Oct-2022 23:41:58.257 FEIN [http-nio-6969-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:58.258 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:41:58.291 FEIN [http-nio-6969-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:41:58.292 FEIN [http-nio-6969-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:41:58.293 FEIN [http-nio-6969-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:45:53.940 INFORMATION [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-6969"]
+04-Oct-2022 23:45:53.987 INFORMATION [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Oct-2022 23:45:54.052 INFORMATION [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-6969"]
+04-Oct-2022 23:45:54.068 INFORMATION [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-6969"]
+04-Oct-2022 23:46:06.906 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Host/login-config/auth-method]
+04-Oct-2022 23:46:06.937 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Host/login-config]
+04-Oct-2022 23:46:06.952 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context/login-config/auth-method]
+04-Oct-2022 23:46:06.952 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context/login-config]
+04-Oct-2022 23:46:06.952 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context/Valve]
+04-Oct-2022 23:46:06.952 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context]
+04-Oct-2022 23:46:06.968 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/10.0.16
+04-Oct-2022 23:46:06.968 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 15 2022 13:19:56 UTC
+04-Oct-2022 23:46:06.968 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.16.0
+04-Oct-2022 23:46:06.968 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2019
+04-Oct-2022 23:46:06.968 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-Oct-2022 23:46:06.968 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+04-Oct-2022 23:46:06.968 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             H:\DirXData\DirX_Programs\Java
+04-Oct-2022 23:46:06.968 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.4-redhat+11-LTS
+04-Oct-2022 23:46:06.968 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Oracle Corporation
+04-Oct-2022 23:46:06.968 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+04-Oct-2022 23:46:06.968 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+04-Oct-2022 23:46:06.968 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Oct-2022 23:46:06.968 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-Oct-2022 23:46:06.968 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-Oct-2022 23:46:06.968 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Oct-2022 23:46:06.968 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Oct-2022 23:46:06.968 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=H:\DirXData\DirX_Programs\Apache_Test_Tomcat\conf\logging.properties
+04-Oct-2022 23:46:06.968 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2022 23:46:06.984 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2022 23:46:06.984 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2022 23:46:06.984 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+04-Oct-2022 23:46:06.984 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+04-Oct-2022 23:46:06.984 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+04-Oct-2022 23:46:06.984 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=H:\DirXData\DirX_Programs\Apache_Test_Tomcat\temp
+04-Oct-2022 23:46:06.984 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+04-Oct-2022 23:46:06.984 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+04-Oct-2022 23:46:06.999 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+04-Oct-2022 23:46:07.640 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-6969"]
+04-Oct-2022 23:46:07.702 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [6796] milliseconds
+04-Oct-2022 23:46:07.812 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Oct-2022 23:46:07.812 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.16]
+04-Oct-2022 23:50:50.952 SCHWERWIEGEND [main] org.apache.catalina.realm.JNDIRealm.startInternal Exception opening directory server connection
+	javax.naming.AuthenticationException: [LDAP: error code 49 - 80090308: LdapErr: DSID-0C090436, comment: AcceptSecurityContext error, data 52e, v23f0 ]
+		at java.naming/com.sun.jndi.ldap.LdapCtx.mapErrorCode(LdapCtx.java:3158)
+		at java.naming/com.sun.jndi.ldap.LdapCtx.processReturnCode(LdapCtx.java:3104)
+		at java.naming/com.sun.jndi.ldap.LdapCtx.processReturnCode(LdapCtx.java:2890)
+		at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2804)
+		at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:320)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:192)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:210)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:153)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:83)
+		at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:730)
+		at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+		at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+		at java.naming/javax.naming.InitialContext.<init>(InitialContext.java:208)
+		at java.naming/javax.naming.directory.InitialDirContext.<init>(InitialDirContext.java:101)
+		at org.apache.catalina.realm.JNDIRealm.createDirContext(JNDIRealm.java:2649)
+		at org.apache.catalina.realm.JNDIRealm.open(JNDIRealm.java:2619)
+		at org.apache.catalina.realm.JNDIRealm.get(JNDIRealm.java:2559)
+		at org.apache.catalina.realm.JNDIRealm.startInternal(JNDIRealm.java:2830)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:247)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:115)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:912)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+04-Oct-2022 23:50:51.015 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\docs]
+04-Oct-2022 23:50:51.343 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:50:51.406 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:50:51.546 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\docs] has finished in [547] ms
+04-Oct-2022 23:50:51.546 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\examples]
+04-Oct-2022 23:50:51.812 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:50:51.937 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:50:52.015 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\examples] has finished in [469] ms
+04-Oct-2022 23:50:52.015 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\host-manager]
+04-Oct-2022 23:50:52.077 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:50:52.077 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:50:52.077 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\host-manager] has finished in [62] ms
+04-Oct-2022 23:50:52.093 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\manager]
+04-Oct-2022 23:50:52.124 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:50:52.140 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:50:52.140 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\manager] has finished in [47] ms
+04-Oct-2022 23:50:52.140 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\ROOT]
+04-Oct-2022 23:50:52.187 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:50:52.187 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:50:52.202 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\ROOT] has finished in [62] ms
+04-Oct-2022 23:50:52.202 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\testapp]
+04-Oct-2022 23:50:52.218 WARNUNG [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+04-Oct-2022 23:50:52.265 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:50:52.265 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:50:52.281 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\testapp] has finished in [79] ms
+04-Oct-2022 23:50:52.296 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-6969"]
+04-Oct-2022 23:50:52.327 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [284632] milliseconds
+04-Oct-2022 23:56:04.329 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+04-Oct-2022 23:56:04.333 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:04.342 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl.loadPersistentRegistrations Loading persistent provider registrations from [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\conf\jaspic-providers.xml]
+04-Oct-2022 23:56:04.361 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:04.591 FEIN [http-nio-6969-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:56:04.593 FEIN [http-nio-6969-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:04.595 FEIN [http-nio-6969-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:05.379 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+04-Oct-2022 23:56:05.382 FEIN [http-nio-6969-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:05.383 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:05.411 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:56:05.419 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:05.420 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:06.026 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+04-Oct-2022 23:56:06.030 FEIN [http-nio-6969-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:06.031 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:06.060 FEIN [http-nio-6969-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:56:06.061 FEIN [http-nio-6969-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:06.062 FEIN [http-nio-6969-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:08.006 FEIN [http-nio-6969-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /manager/html
+04-Oct-2022 23:56:08.011 FEIN [http-nio-6969-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Text Manager interface (for scripts)]' against GET /html --> false
+04-Oct-2022 23:56:08.012 FEIN [http-nio-6969-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTML Manager interface (for humans)]' against GET /html --> true
+04-Oct-2022 23:56:08.013 FEIN [http-nio-6969-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Status interface]' against GET /html --> false
+04-Oct-2022 23:56:08.014 FEIN [http-nio-6969-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[JMX Proxy interface]' against GET /html --> false
+04-Oct-2022 23:56:08.015 FEIN [http-nio-6969-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Text Manager interface (for scripts)]' against GET /html --> false
+04-Oct-2022 23:56:08.016 FEIN [http-nio-6969-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTML Manager interface (for humans)]' against GET /html --> true
+04-Oct-2022 23:56:08.017 FEIN [http-nio-6969-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Status interface]' against GET /html --> false
+04-Oct-2022 23:56:08.018 FEIN [http-nio-6969-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[JMX Proxy interface]' against GET /html --> false
+04-Oct-2022 23:56:08.019 FEIN [http-nio-6969-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+04-Oct-2022 23:56:08.023 FEIN [http-nio-6969-exec-7] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+04-Oct-2022 23:56:08.023 FEIN [http-nio-6969-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+04-Oct-2022 23:56:08.024 FEIN [http-nio-6969-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Failed authenticate() test
+04-Oct-2022 23:56:08.963 FEIN [http-nio-6969-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /manager/html
+04-Oct-2022 23:56:08.967 FEIN [http-nio-6969-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Text Manager interface (for scripts)]' against GET /html --> false
+04-Oct-2022 23:56:08.967 FEIN [http-nio-6969-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTML Manager interface (for humans)]' against GET /html --> true
+04-Oct-2022 23:56:08.968 FEIN [http-nio-6969-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Status interface]' against GET /html --> false
+04-Oct-2022 23:56:08.968 FEIN [http-nio-6969-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[JMX Proxy interface]' against GET /html --> false
+04-Oct-2022 23:56:08.969 FEIN [http-nio-6969-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Text Manager interface (for scripts)]' against GET /html --> false
+04-Oct-2022 23:56:08.971 FEIN [http-nio-6969-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTML Manager interface (for humans)]' against GET /html --> true
+04-Oct-2022 23:56:08.972 FEIN [http-nio-6969-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Status interface]' against GET /html --> false
+04-Oct-2022 23:56:08.976 FEIN [http-nio-6969-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[JMX Proxy interface]' against GET /html --> false
+04-Oct-2022 23:56:08.979 FEIN [http-nio-6969-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+04-Oct-2022 23:56:08.981 FEIN [http-nio-6969-exec-8] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+04-Oct-2022 23:56:08.981 FEIN [http-nio-6969-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+04-Oct-2022 23:56:08.988 FEIN [http-nio-6969-exec-8] org.apache.catalina.realm.CombinedRealm.authenticate Attempting to authenticate user [guiadmin] with realm [org.apache.catalina.realm.UserDatabaseRealm]
+04-Oct-2022 23:56:09.022 FEIN [http-nio-6969-exec-8] org.apache.catalina.realm.CombinedRealm.authenticate Authentifizierter Benutzer [guiadmin] mit Realm [org.apache.catalina.realm.UserDatabaseRealm]
+04-Oct-2022 23:56:09.024 FEIN [http-nio-6969-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.register Authenticated 'guiadmin' with type 'BASIC'
+04-Oct-2022 23:56:09.025 FEIN [http-nio-6969-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling accessControl()
+04-Oct-2022 23:56:09.025 FEIN [http-nio-6969-exec-8] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[guiadmin()]
+04-Oct-2022 23:56:09.026 FEIN [http-nio-6969-exec-8] org.apache.catalina.realm.RealmBase.hasRole Benutzername [guiadmin] hat die Rolle [manager-gui]
+04-Oct-2022 23:56:09.027 FEIN [http-nio-6969-exec-8] org.apache.catalina.realm.RealmBase.hasResourcePermission Role found:  manager-gui
+04-Oct-2022 23:56:09.027 FEIN [http-nio-6969-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Successfully passed all security constraints
+04-Oct-2022 23:56:09.139 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /manager/css/manager.css
+04-Oct-2022 23:56:09.145 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /manager/images/tomcat.svg
+04-Oct-2022 23:56:09.145 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /manager/images/asf-logo.svg
+04-Oct-2022 23:56:09.147 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Text Manager interface (for scripts)]' against GET /css/manager.css --> false
+04-Oct-2022 23:56:09.148 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Text Manager interface (for scripts)]' against GET /images/asf-logo.svg --> false
+04-Oct-2022 23:56:09.149 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTML Manager interface (for humans)]' against GET /images/asf-logo.svg --> false
+04-Oct-2022 23:56:09.150 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Status interface]' against GET /images/asf-logo.svg --> false
+04-Oct-2022 23:56:09.151 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Text Manager interface (for scripts)]' against GET /images/tomcat.svg --> false
+04-Oct-2022 23:56:09.152 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTML Manager interface (for humans)]' against GET /images/tomcat.svg --> false
+04-Oct-2022 23:56:09.159 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Status interface]' against GET /images/tomcat.svg --> false
+04-Oct-2022 23:56:09.160 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[JMX Proxy interface]' against GET /images/tomcat.svg --> false
+04-Oct-2022 23:56:09.161 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Text Manager interface (for scripts)]' against GET /images/tomcat.svg --> false
+04-Oct-2022 23:56:09.162 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTML Manager interface (for humans)]' against GET /images/tomcat.svg --> false
+04-Oct-2022 23:56:09.163 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Status interface]' against GET /images/tomcat.svg --> false
+04-Oct-2022 23:56:09.164 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[JMX Proxy interface]' against GET /images/tomcat.svg --> false
+04-Oct-2022 23:56:09.165 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Text Manager interface (for scripts)]' against GET /images/tomcat.svg --> false
+04-Oct-2022 23:56:09.166 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTML Manager interface (for humans)]' against GET /images/tomcat.svg --> false
+04-Oct-2022 23:56:09.166 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Status interface]' against GET /images/tomcat.svg --> false
+04-Oct-2022 23:56:09.175 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[JMX Proxy interface]' against GET /images/tomcat.svg --> false
+04-Oct-2022 23:56:09.176 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Text Manager interface (for scripts)]' against GET /images/tomcat.svg --> false
+04-Oct-2022 23:56:09.179 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[JMX Proxy interface]' against GET /images/asf-logo.svg --> false
+04-Oct-2022 23:56:09.179 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTML Manager interface (for humans)]' against GET /images/tomcat.svg --> false
+04-Oct-2022 23:56:09.180 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Text Manager interface (for scripts)]' against GET /images/asf-logo.svg --> false
+04-Oct-2022 23:56:09.181 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTML Manager interface (for humans)]' against GET /css/manager.css --> false
+04-Oct-2022 23:56:09.182 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Status interface]' against GET /css/manager.css --> false
+04-Oct-2022 23:56:09.183 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[JMX Proxy interface]' against GET /css/manager.css --> false
+04-Oct-2022 23:56:09.185 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Text Manager interface (for scripts)]' against GET /css/manager.css --> false
+04-Oct-2022 23:56:09.186 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTML Manager interface (for humans)]' against GET /css/manager.css --> false
+04-Oct-2022 23:56:09.186 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTML Manager interface (for humans)]' against GET /images/asf-logo.svg --> false
+04-Oct-2022 23:56:09.187 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Status interface]' against GET /css/manager.css --> false
+04-Oct-2022 23:56:09.187 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[JMX Proxy interface]' against GET /css/manager.css --> false
+04-Oct-2022 23:56:09.188 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Text Manager interface (for scripts)]' against GET /css/manager.css --> false
+04-Oct-2022 23:56:09.189 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Status interface]' against GET /images/tomcat.svg --> false
+04-Oct-2022 23:56:09.190 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[JMX Proxy interface]' against GET /images/tomcat.svg --> false
+04-Oct-2022 23:56:09.190 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-Oct-2022 23:56:09.191 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:09.191 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTML Manager interface (for humans)]' against GET /css/manager.css --> false
+04-Oct-2022 23:56:09.192 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Status interface]' against GET /css/manager.css --> false
+04-Oct-2022 23:56:09.192 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Status interface]' against GET /images/asf-logo.svg --> false
+04-Oct-2022 23:56:09.193 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[JMX Proxy interface]' against GET /css/manager.css --> false
+04-Oct-2022 23:56:09.193 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Text Manager interface (for scripts)]' against GET /css/manager.css --> false
+04-Oct-2022 23:56:09.196 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTML Manager interface (for humans)]' against GET /css/manager.css --> false
+04-Oct-2022 23:56:09.205 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Status interface]' against GET /css/manager.css --> false
+04-Oct-2022 23:56:09.206 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[JMX Proxy interface]' against GET /css/manager.css --> false
+04-Oct-2022 23:56:09.208 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-Oct-2022 23:56:09.209 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:09.217 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[JMX Proxy interface]' against GET /images/asf-logo.svg --> false
+04-Oct-2022 23:56:09.220 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Text Manager interface (for scripts)]' against GET /images/asf-logo.svg --> false
+04-Oct-2022 23:56:09.222 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTML Manager interface (for humans)]' against GET /images/asf-logo.svg --> false
+04-Oct-2022 23:56:09.224 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Status interface]' against GET /images/asf-logo.svg --> false
+04-Oct-2022 23:56:09.225 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[JMX Proxy interface]' against GET /images/asf-logo.svg --> false
+04-Oct-2022 23:56:09.226 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Text Manager interface (for scripts)]' against GET /images/asf-logo.svg --> false
+04-Oct-2022 23:56:09.227 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTML Manager interface (for humans)]' against GET /images/asf-logo.svg --> false
+04-Oct-2022 23:56:09.229 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Status interface]' against GET /images/asf-logo.svg --> false
+04-Oct-2022 23:56:09.231 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[JMX Proxy interface]' against GET /images/asf-logo.svg --> false
+04-Oct-2022 23:56:09.232 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-Oct-2022 23:56:09.233 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:09.405 FEIN [http-nio-6969-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:56:09.406 FEIN [http-nio-6969-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:09.414 FEIN [http-nio-6969-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:11.807 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /host-manager/html
+04-Oct-2022 23:56:11.811 FEIN [http-nio-6969-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:56:11.813 FEIN [http-nio-6969-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:56:11.814 FEIN [http-nio-6969-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:56:11.815 FEIN [http-nio-6969-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:56:11.817 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+04-Oct-2022 23:56:11.818 FEIN [http-nio-6969-exec-3] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+04-Oct-2022 23:56:11.819 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+04-Oct-2022 23:56:11.820 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Failed authenticate() test
+04-Oct-2022 23:56:13.154 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /host-manager/html
+04-Oct-2022 23:56:13.163 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:56:13.164 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:56:13.171 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HostManager commands]' against GET /html --> false
+04-Oct-2022 23:56:13.173 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[HTMLHostManager commands]' against GET /html --> true
+04-Oct-2022 23:56:13.174 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+04-Oct-2022 23:56:13.175 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+04-Oct-2022 23:56:13.176 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+04-Oct-2022 23:56:13.177 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.CombinedRealm.authenticate Attempting to authenticate user [guiadmin] with realm [org.apache.catalina.realm.UserDatabaseRealm]
+04-Oct-2022 23:56:13.178 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.CombinedRealm.authenticate Authentifizierter Benutzer [guiadmin] mit Realm [org.apache.catalina.realm.UserDatabaseRealm]
+04-Oct-2022 23:56:13.179 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.register Authenticated 'guiadmin' with type 'BASIC'
+04-Oct-2022 23:56:13.179 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling accessControl()
+04-Oct-2022 23:56:13.180 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[guiadmin()]
+04-Oct-2022 23:56:13.181 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.hasRole Benutzername [guiadmin] hat NICHT die Rolle [admin-gui]
+04-Oct-2022 23:56:13.185 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.hasRole Benutzername [guiadmin] hat NICHT die Rolle [admin-gui]
+04-Oct-2022 23:56:13.185 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  admin-gui
+04-Oct-2022 23:56:13.186 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Failed accessControl() test
+04-Oct-2022 23:56:13.632 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:56:13.641 FEIN [http-nio-6969-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:13.642 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:19.553 FEIN [http-nio-6969-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+04-Oct-2022 23:56:19.555 FEIN [http-nio-6969-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:19.556 FEIN [http-nio-6969-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:19.585 FEIN [http-nio-6969-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:56:19.590 FEIN [http-nio-6969-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:19.591 FEIN [http-nio-6969-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:20.217 FEIN [http-nio-6969-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+04-Oct-2022 23:56:20.220 FEIN [http-nio-6969-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:20.220 FEIN [http-nio-6969-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:20.259 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:56:20.262 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:20.263 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:32.638 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+04-Oct-2022 23:56:32.641 FEIN [http-nio-6969-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:32.641 FEIN [http-nio-6969-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:32.680 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:56:32.685 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:32.686 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:33.280 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+04-Oct-2022 23:56:33.283 FEIN [http-nio-6969-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:33.284 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:33.324 FEIN [http-nio-6969-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:56:33.327 FEIN [http-nio-6969-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:33.327 FEIN [http-nio-6969-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:33.476 FEIN [http-nio-6969-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+04-Oct-2022 23:56:33.477 FEIN [http-nio-6969-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:33.478 FEIN [http-nio-6969-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:33.523 FEIN [http-nio-6969-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:56:33.525 FEIN [http-nio-6969-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:33.526 FEIN [http-nio-6969-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:33.622 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+04-Oct-2022 23:56:33.624 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:33.625 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:33.671 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:56:33.677 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:33.678 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:33.800 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+04-Oct-2022 23:56:33.809 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:33.811 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:33.839 FEIN [http-nio-6969-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:56:33.839 FEIN [http-nio-6969-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:33.840 FEIN [http-nio-6969-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:46.703 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+04-Oct-2022 23:56:46.719 FEIN [http-nio-6969-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:46.719 FEIN [http-nio-6969-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:56:46.890 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-Oct-2022 23:56:46.890 FEIN [http-nio-6969-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraints defined
+04-Oct-2022 23:56:46.906 FEIN [http-nio-6969-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Not subject to any constraint
+04-Oct-2022 23:57:05.199 INFORMATION [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-6969"]
+04-Oct-2022 23:57:05.246 INFORMATION [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Oct-2022 23:57:05.346 INFORMATION [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-6969"]
+04-Oct-2022 23:57:05.362 INFORMATION [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-6969"]
+04-Oct-2022 23:57:10.002 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Host/login-config/auth-method]
+04-Oct-2022 23:57:10.049 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Host/login-config]
+04-Oct-2022 23:57:10.065 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context/login-config/auth-method]
+04-Oct-2022 23:57:10.065 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context/login-config]
+04-Oct-2022 23:57:10.065 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context/Valve]
+04-Oct-2022 23:57:10.065 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context]
+04-Oct-2022 23:57:10.065 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/10.0.16
+04-Oct-2022 23:57:10.065 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 15 2022 13:19:56 UTC
+04-Oct-2022 23:57:10.080 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.16.0
+04-Oct-2022 23:57:10.080 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2019
+04-Oct-2022 23:57:10.080 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-Oct-2022 23:57:10.080 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+04-Oct-2022 23:57:10.080 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             H:\DirXData\DirX_Programs\Java
+04-Oct-2022 23:57:10.080 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.4-redhat+11-LTS
+04-Oct-2022 23:57:10.080 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Oracle Corporation
+04-Oct-2022 23:57:10.080 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+04-Oct-2022 23:57:10.080 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+04-Oct-2022 23:57:10.080 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Oct-2022 23:57:10.080 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-Oct-2022 23:57:10.080 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-Oct-2022 23:57:10.080 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Oct-2022 23:57:10.080 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Oct-2022 23:57:10.080 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=H:\DirXData\DirX_Programs\Apache_Test_Tomcat\conf\logging.properties
+04-Oct-2022 23:57:10.080 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2022 23:57:10.080 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2022 23:57:10.080 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2022 23:57:10.080 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+04-Oct-2022 23:57:10.096 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+04-Oct-2022 23:57:10.096 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+04-Oct-2022 23:57:10.096 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=H:\DirXData\DirX_Programs\Apache_Test_Tomcat\temp
+04-Oct-2022 23:57:10.096 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+04-Oct-2022 23:57:10.096 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+04-Oct-2022 23:57:10.112 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+04-Oct-2022 23:57:10.752 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-6969"]
+04-Oct-2022 23:57:10.799 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [1214] milliseconds
+04-Oct-2022 23:57:10.924 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Oct-2022 23:57:10.924 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.16]
+04-Oct-2022 23:57:11.690 SCHWERWIEGEND [main] org.apache.catalina.realm.JNDIRealm.startInternal Exception opening directory server connection
+	javax.naming.AuthenticationException: [LDAP: error code 49 - 80090308: LdapErr: DSID-0C090436, comment: AcceptSecurityContext error, data 52e, v23f0 ]
+		at java.naming/com.sun.jndi.ldap.LdapCtx.mapErrorCode(LdapCtx.java:3158)
+		at java.naming/com.sun.jndi.ldap.LdapCtx.processReturnCode(LdapCtx.java:3104)
+		at java.naming/com.sun.jndi.ldap.LdapCtx.processReturnCode(LdapCtx.java:2890)
+		at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2804)
+		at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:320)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:192)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:210)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:153)
+		at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:83)
+		at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:730)
+		at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+		at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+		at java.naming/javax.naming.InitialContext.<init>(InitialContext.java:208)
+		at java.naming/javax.naming.directory.InitialDirContext.<init>(InitialDirContext.java:101)
+		at org.apache.catalina.realm.JNDIRealm.createDirContext(JNDIRealm.java:2649)
+		at org.apache.catalina.realm.JNDIRealm.open(JNDIRealm.java:2619)
+		at org.apache.catalina.realm.JNDIRealm.get(JNDIRealm.java:2559)
+		at org.apache.catalina.realm.JNDIRealm.startInternal(JNDIRealm.java:2830)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:247)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:115)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:912)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+04-Oct-2022 23:57:11.721 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\docs]
+04-Oct-2022 23:57:12.159 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:57:12.237 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:57:12.377 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\docs] has finished in [656] ms
+04-Oct-2022 23:57:12.377 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\examples]
+04-Oct-2022 23:57:12.674 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:57:12.846 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:57:12.955 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\examples] has finished in [578] ms
+04-Oct-2022 23:57:12.955 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\host-manager]
+04-Oct-2022 23:57:13.034 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:57:13.049 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:57:13.065 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\host-manager] has finished in [110] ms
+04-Oct-2022 23:57:13.065 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\manager]
+04-Oct-2022 23:57:13.127 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:57:13.143 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:57:13.143 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\manager] has finished in [78] ms
+04-Oct-2022 23:57:13.143 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\ROOT]
+04-Oct-2022 23:57:13.205 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:57:13.237 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:57:13.237 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\ROOT] has finished in [94] ms
+04-Oct-2022 23:57:13.237 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\testapp]
+04-Oct-2022 23:57:13.252 WARNUNG [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+04-Oct-2022 23:57:13.346 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-Oct-2022 23:57:13.362 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Oct-2022 23:57:13.377 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\testapp] has finished in [140] ms
+04-Oct-2022 23:57:13.377 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-6969"]
+04-Oct-2022 23:57:13.424 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [2610] milliseconds
+04-Oct-2022 23:59:46.813 INFORMATION [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-6969"]
+04-Oct-2022 23:59:46.859 INFORMATION [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Oct-2022 23:59:46.932 INFORMATION [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-6969"]
+04-Oct-2022 23:59:46.947 INFORMATION [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-6969"]

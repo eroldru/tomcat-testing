@@ -1,0 +1,162 @@
+
+2022-07-30 17:51:05 Apache Commons Daemon procrun stderr initialized.
+30-Jul-2022 17:51:06.885 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Host/login-config/auth-method]
+30-Jul-2022 17:51:06.885 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Host/login-config]
+30-Jul-2022 17:51:06.901 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context/Realm]
+30-Jul-2022 17:51:06.901 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context/Valve]
+30-Jul-2022 17:51:06.932 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context]
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/10.0.16
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 15 2022 13:19:56 UTC
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.16.0
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2019
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             H:\DirXData\DirX_Programs\Java
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.4-redhat+11-LTS
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Oracle Corporation
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=H:\DirXData\DirX_Programs\Apache_Test_Tomcat\endorsed
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=H:\DirXData\DirX_Programs\Apache_Test_Tomcat\temp
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=H:\DirXData\DirX_Programs\Apache_Test_Tomcat\conf\logging.properties
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+30-Jul-2022 17:51:06.948 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+30-Jul-2022 17:51:06.963 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+30-Jul-2022 17:51:07.588 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-6969"]
+30-Jul-2022 17:51:07.635 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [1163] milliseconds
+30-Jul-2022 17:51:07.713 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Jul-2022 17:51:07.713 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.16]
+30-Jul-2022 17:51:07.729 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\docs]
+30-Jul-2022 17:51:08.041 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+30-Jul-2022 17:51:08.213 WARNUNG [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [109] milliseconds.
+30-Jul-2022 17:51:08.307 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\docs] has finished in [578] ms
+30-Jul-2022 17:51:08.307 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\examples]
+30-Jul-2022 17:51:08.635 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+30-Jul-2022 17:51:08.823 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\examples] has finished in [516] ms
+30-Jul-2022 17:51:08.823 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\host-manager]
+30-Jul-2022 17:51:08.869 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+30-Jul-2022 17:51:08.885 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\host-manager] has finished in [62] ms
+30-Jul-2022 17:51:08.885 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\manager]
+30-Jul-2022 17:51:08.932 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+30-Jul-2022 17:51:08.948 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\manager] has finished in [63] ms
+30-Jul-2022 17:51:08.948 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\ROOT]
+30-Jul-2022 17:51:08.979 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+30-Jul-2022 17:51:08.979 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\ROOT] has finished in [31] ms
+30-Jul-2022 17:51:08.979 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\testapp]
+30-Jul-2022 17:51:09.010 WARNUNG [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [Test-Tomcat] used in an <auth-constraint> without being defined in a <security-role>
+30-Jul-2022 17:51:09.010 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+30-Jul-2022 17:51:09.026 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\testapp] has finished in [47] ms
+30-Jul-2022 17:51:09.026 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-6969"]
+30-Jul-2022 17:51:09.119 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [1494] milliseconds
+30-Jul-2022 17:51:14.088 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+30-Jul-2022 17:51:14.104 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[adminsecure]' against GET /index.jsp --> true
+30-Jul-2022 17:51:14.104 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[adminsecure]' against GET /index.jsp --> true
+30-Jul-2022 17:51:14.104 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl.loadPersistentRegistrations Loading persistent provider registrations from [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\conf\jaspic-providers.xml]
+30-Jul-2022 17:51:14.119 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+30-Jul-2022 17:51:14.119 FEIN [http-nio-6969-exec-9] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+30-Jul-2022 17:51:14.119 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+30-Jul-2022 17:51:14.119 FEIN [http-nio-6969-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Failed authenticate() test
+30-Jul-2022 17:51:18.807 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+30-Jul-2022 17:51:18.807 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[adminsecure]' against GET /index.jsp --> true
+30-Jul-2022 17:51:18.807 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[adminsecure]' against GET /index.jsp --> true
+30-Jul-2022 17:51:18.807 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+30-Jul-2022 17:51:18.807 FEIN [http-nio-6969-exec-10] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+30-Jul-2022 17:51:18.807 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+30-Jul-2022 17:51:18.838 FEIN [http-nio-6969-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Failed authenticate() test
+30-Jul-2022 17:53:19.260 INFORMATION [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/testapp]
+30-Jul-2022 17:53:19.260 INFORMATION [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/testapp] has started
+30-Jul-2022 17:53:19.322 WARNUNG [Catalina-utility-2] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [Test-Tomcat] used in an <auth-constraint> without being defined in a <security-role>
+30-Jul-2022 17:53:19.322 INFORMATION [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/testapp] is completed
+30-Jul-2022 17:53:20.463 INFORMATION [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-6969"]
+30-Jul-2022 17:53:20.510 INFORMATION [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Jul-2022 17:53:20.575 INFORMATION [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-6969"]
+30-Jul-2022 17:53:20.590 INFORMATION [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-6969"]
+
+2022-07-30 17:53:22 Apache Commons Daemon procrun stderr initialized.
+30-Jul-2022 17:53:23.477 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Host/login-config/auth-method]
+30-Jul-2022 17:53:23.477 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Host/login-config]
+30-Jul-2022 17:53:23.493 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context/Realm]
+30-Jul-2022 17:53:23.493 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context/Valve]
+30-Jul-2022 17:53:23.493 WARNUNG [main] org.apache.tomcat.util.digester.Digester.endElement No rules found matching [Server/Service/Engine/Context]
+30-Jul-2022 17:53:23.493 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/10.0.16
+30-Jul-2022 17:53:23.493 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 15 2022 13:19:56 UTC
+30-Jul-2022 17:53:23.493 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.16.0
+30-Jul-2022 17:53:23.493 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2019
+30-Jul-2022 17:53:23.493 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Jul-2022 17:53:23.493 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+30-Jul-2022 17:53:23.493 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             H:\DirXData\DirX_Programs\Java
+30-Jul-2022 17:53:23.493 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.4-redhat+11-LTS
+30-Jul-2022 17:53:23.493 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Oracle Corporation
+30-Jul-2022 17:53:23.493 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+30-Jul-2022 17:53:23.493 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+30-Jul-2022 17:53:23.508 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+30-Jul-2022 17:53:23.508 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=H:\DirXData\DirX_Programs\Apache_Test_Tomcat
+30-Jul-2022 17:53:23.508 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=H:\DirXData\DirX_Programs\Apache_Test_Tomcat\endorsed
+30-Jul-2022 17:53:23.508 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=H:\DirXData\DirX_Programs\Apache_Test_Tomcat\temp
+30-Jul-2022 17:53:23.508 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Jul-2022 17:53:23.508 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=H:\DirXData\DirX_Programs\Apache_Test_Tomcat\conf\logging.properties
+30-Jul-2022 17:53:23.508 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Jul-2022 17:53:23.508 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Jul-2022 17:53:23.508 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Jul-2022 17:53:23.508 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Jul-2022 17:53:23.508 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Jul-2022 17:53:23.508 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+30-Jul-2022 17:53:23.508 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+30-Jul-2022 17:53:23.508 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+30-Jul-2022 17:53:23.508 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+30-Jul-2022 17:53:23.524 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+30-Jul-2022 17:53:23.524 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+30-Jul-2022 17:53:23.524 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+30-Jul-2022 17:53:24.149 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-6969"]
+30-Jul-2022 17:53:24.196 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [1103] milliseconds
+30-Jul-2022 17:53:24.289 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Jul-2022 17:53:24.289 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.16]
+30-Jul-2022 17:53:24.289 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\docs]
+30-Jul-2022 17:53:24.586 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+30-Jul-2022 17:53:24.852 WARNUNG [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [219] milliseconds.
+30-Jul-2022 17:53:24.883 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\docs] has finished in [594] ms
+30-Jul-2022 17:53:24.883 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\examples]
+30-Jul-2022 17:53:25.242 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+30-Jul-2022 17:53:25.446 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\examples] has finished in [563] ms
+30-Jul-2022 17:53:25.446 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\host-manager]
+30-Jul-2022 17:53:25.508 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+30-Jul-2022 17:53:25.524 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\host-manager] has finished in [78] ms
+30-Jul-2022 17:53:25.524 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\manager]
+30-Jul-2022 17:53:25.555 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+30-Jul-2022 17:53:25.555 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\manager] has finished in [31] ms
+30-Jul-2022 17:53:25.571 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\ROOT]
+30-Jul-2022 17:53:25.586 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+30-Jul-2022 17:53:25.602 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\ROOT] has finished in [31] ms
+30-Jul-2022 17:53:25.602 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\testapp]
+30-Jul-2022 17:53:25.618 WARNUNG [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [Test-Tomcat] used in an <auth-constraint> without being defined in a <security-role>
+30-Jul-2022 17:53:25.618 FEIN [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+30-Jul-2022 17:53:25.633 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\webapps\testapp] has finished in [31] ms
+30-Jul-2022 17:53:25.633 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-6969"]
+30-Jul-2022 17:53:25.743 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [1546] milliseconds
+30-Jul-2022 17:53:29.149 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /testapp/
+30-Jul-2022 17:53:29.149 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[adminsecure]' against GET /index.jsp --> true
+30-Jul-2022 17:53:29.149 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[adminsecure]' against GET /index.jsp --> true
+30-Jul-2022 17:53:29.149 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl.loadPersistentRegistrations Loading persistent provider registrations from [H:\DirXData\DirX_Programs\Apache_Test_Tomcat\conf\jaspic-providers.xml]
+30-Jul-2022 17:53:29.164 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+30-Jul-2022 17:53:29.164 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+30-Jul-2022 17:53:29.164 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+30-Jul-2022 17:53:29.164 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling accessControl()
+30-Jul-2022 17:53:29.164 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles null
+30-Jul-2022 17:53:29.164 FEIN [http-nio-6969-exec-1] org.apache.catalina.realm.RealmBase.hasResourcePermission   No user authenticated, cannot grant access
+30-Jul-2022 17:53:29.164 FEIN [http-nio-6969-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Failed accessControl() test
+31-Jul-2022 21:07:35.886 INFORMATION [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-6969"]
+31-Jul-2022 21:07:36.469 INFORMATION [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Jul-2022 21:07:36.588 INFORMATION [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-6969"]
+31-Jul-2022 21:07:36.854 INFORMATION [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-6969"]

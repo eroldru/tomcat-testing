@@ -1,0 +1,21 @@
+[2022-07-30 17:47:09] [info]  [ 2264] Apache Commons Daemon procrun (1.2.4.0 64-bit) started.
+[2022-07-30 17:47:09] [info]  [ 2264] Installing service 'Tomcat10Test' name 'Apache Tomcat 10.0 Tomcat10Test'.
+[2022-07-30 17:47:09] [info]  [ 2264] Service 'Tomcat10Test' installed.
+[2022-07-30 17:47:09] [info]  [ 2264] Apache Commons Daemon procrun finished.
+[2022-07-30 17:51:05] [info]  [ 3728] Apache Commons Daemon procrun (1.2.4.0 64-bit) started.
+[2022-07-30 17:51:05] [info]  [ 3728] Running Service 'Tomcat10Test'...
+[2022-07-30 17:51:05] [info]  [  872] Starting service...
+[2022-07-30 17:51:07] [info]  [  872] Service started in 1427 milliseconds.
+[2022-07-30 17:53:20] [info]  [ 5500] Stopping service...
+[2022-07-30 17:53:21] [info]  [ 5500] Service stop thread completed.
+[2022-07-30 17:53:21] [info]  [ 3728] Run service finished.
+[2022-07-30 17:53:21] [info]  [ 3728] Apache Commons Daemon procrun finished.
+[2022-07-30 17:53:22] [info]  [ 4320] Apache Commons Daemon procrun (1.2.4.0 64-bit) started.
+[2022-07-30 17:53:22] [info]  [ 4320] Running Service 'Tomcat10Test'...
+[2022-07-30 17:53:22] [info]  [ 9696] Starting service...
+[2022-07-30 17:53:24] [info]  [ 9696] Service started in 1511 milliseconds.
+[2022-07-31 21:07:35] [info]  [ 8984] Console SHUTDOWN event signaled.
+[2022-07-31 21:07:35] [info]  [ 8984] Stopping service...
+[2022-07-31 21:07:36] [info]  [ 8984] Service stop thread completed.
+[2022-07-31 21:07:37] [info]  [ 4320] Run service finished.
+[2022-07-31 21:07:37] [info]  [ 4320] Apache Commons Daemon procrun finished.

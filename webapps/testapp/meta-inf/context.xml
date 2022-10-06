@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/testapp">
+<!-- valve will be explicitly created when SPNEGO is used,
+ this is to declare additional attributes -->
+  <Valve className="org.apache.catalina.authenticator.SpnegoAuthenticator" 
+  alwaysUseSession="true" cache="true"  />
+</Context>
